@@ -8,7 +8,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.compose.composable
 import com.erikmobiledev.pelifinder.components.BottomNavigationBar
-import com.erikmobiledev.pelifinder.viewmodels.MovieListViewModel
+import com.erikmobiledev.pelifinder.viewModels.MovieListViewModel
 import com.erikmobiledev.pelifinder.views.HomeView
 import com.erikmobiledev.pelifinder.views.MovieView
 

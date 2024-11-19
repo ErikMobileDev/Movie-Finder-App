@@ -17,7 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.erikmobiledev.pelifinder.model.Movie
-import com.erikmobiledev.pelifinder.viewmodels.MovieListViewModel
+import com.erikmobiledev.pelifinder.viewModels.MovieListViewModel
 
 
 @Composable

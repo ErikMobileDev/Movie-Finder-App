@@ -6,7 +6,7 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Movie
+import androidx.compose.material.icons.filled.Star
 
 @Composable
 fun BottomNavigationBar(navController: NavController) {
@@ -25,7 +25,7 @@ fun BottomNavigationBar(navController: NavController) {
             }
         )
         NavigationBarItem(
-            icon = { Icon(Icons.Default.Movie, contentDescription = "Movies") },
+            icon = { Icon(Icons.Default.Star, contentDescription = "Movies") },
             selected = currentRoute == "MovieView",
             onClick = {
                 navController.navigate("MovieView") {

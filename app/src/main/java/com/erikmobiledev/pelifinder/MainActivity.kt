@@ -9,7 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.erikmobiledev.pelifinder.navigation.NavManager
 import com.erikmobiledev.pelifinder.ui.theme.PeliFinderTheme
-import com.erikmobiledev.pelifinder.viewmodels.MovieListViewModel
+import com.erikmobiledev.pelifinder.viewModels.MovieListViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -1,4 +1,4 @@
-package com.erikmobiledev.pelifinder.viewmodels
+package com.erikmobiledev.pelifinder.viewModels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
